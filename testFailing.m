@@ -2,6 +2,6 @@ function tests = testFailing
   tests = functiontests(localfunctions)
 end
 
-function testThatPasses(testCase)
+function testThatFails(testCase)
   error('This is an error');
 end
