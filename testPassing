@@ -1,0 +1,7 @@
+function tests = testPassing
+  tests = functiontests(localfunctions)
+end
+
+function testThatPasses(testCase)
+  disp('All good');
+end
